@@ -6,6 +6,11 @@
       "name": "library"
     },
     {
+      "fileId": "1PkBoMSDMNQ_WcFP-pUyWisSqq8ct65_BV_gq2rkbCKs",
+      "type": "doc",
+      "name": "blog"
+    },
+    {
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
@@ -18,6 +23,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-album",
+      "data": "blog",
+      "array": "blogs",
+      "slug": "slug",
+      "path": "blog"
     }
   ]
 }
