@@ -8,7 +8,7 @@
 
 {% block content %}
   <article class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-sm-8">
         <img src="../img/{{ image }}" alt="" class="img-fluid mb-4">
         <h1>{{ headline }}</h1>
@@ -17,5 +17,12 @@
         <p><a href="{{ link }}">Wikipedia</a></p>
       </div>
     </div>
+    <h3>Songs:</h3>
+    <hr>
+      {% for song in songs.renaissance %}
+        <h4>{{ song.title }}</h4>
+        <p>{{ song.artists }} ✪ {{ song.time }}</p>
+        <hr> <!-- @PROF MCDONALD: Is there a way to put a spreadsheet into a baked page? -->
+      {% endfor %}
   </article>
 {% endblock %}

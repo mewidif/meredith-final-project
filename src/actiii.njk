@@ -1,0 +1,33 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Index page title{% endblock %}
+
+{% block page_description %}The index search description for this page goes here.{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row justify-content-center">
+    <!-- IMAGE IMAGE IMAGE -->
+    <div class="col-sm-8">
+      <img src="img/0-nada.jpg" class="img-fluid" alt="Beyoncé">
+    </div>
+    <!-- END IMAGE -->
+    <div class="row justify-content-center">
+      <div class="col-sm-8">
+        <h1>Act III: ???</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center p-2">
+    <div class="col-sm-8">
+      <div class="mb-3">
+        <h6 class="form-label">What genre will Beyoncé do next?</h6>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3"><a href="https://www.rollingstone.com/music/music-features/beyonce-act-iii-album-genre-predictions-1234994311/" target="_blank">Comment!</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

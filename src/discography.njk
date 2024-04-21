@@ -6,25 +6,37 @@
 
 {% block content %}
 <div class="container">
-  <h1>Main headline here</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
-  <div class="row">
-    {% for book in library.books %}
+  <h1 class="text-center">Discography</h1>
+  <div class="col p-2">
+    <h2>The Three Act Saga</h2>
+    <img src="img/11-acts.jpg" class="img-fluid" alt="Beyoncé">
+    <div class="row align-items center text-center">
+      {% for blog in blog.blogs %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <h6>
+          <a href="{{ relative_path }}blog/{{ blog.slug }}.html" target="_blank">{{ blog.headline }}</a>
+        </h6>
+      </div>
+      {% endfor %}
+      <div class="col">
+        <h6>
+          <a href="{{ relative_path }}actiii.html">Act III: ???</a>
+        </h6>
+      </div>
+    </div>
+  </div>
+  <h2>Previous Studio Albums:</h2>
+  <div class="row row-gap-3 p-2">
+    {% for album in songs.discography %}
+      <div class="col-sm-4">
+        <img src="img/{{ album.image }}.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-sm-8">
+        <h3><a href="{{ album.link }}" target="_blank">{{ album.title }}</a></h3>
+        <p>{{ album.year }}</p>
+        {{ album.description }}
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
 </div>
 {% endblock %}
