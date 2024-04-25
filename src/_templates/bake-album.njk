@@ -19,10 +19,12 @@
     </div>
     <h3>Songs:</h3>
     <hr>
-      {% for song in songs.renaissance %}
-        <h4>{{ song.title }}</h4>
-        <p>{{ song.artists }} ✪ {{ song.time }}</p>
-        <hr> <!-- @PROF MCDONALD: Is there a way to put a spreadsheet into a baked page? -->
+      {% for song in songs.beyonce %}
+        {% if song.slug == slug %}
+          <h4>{{ song.title }}</h4>
+          <p>{{ song.artists }} ✪ {{ song.time }}</p>
+          <hr> <!-- @PROF MCDONALD: Is there a way to put a spreadsheet into a baked page? -->
+        {% endif %}
       {% endfor %}
   </article>
 {% endblock %}

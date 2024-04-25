@@ -2,7 +2,7 @@
   "blogs": [
     {
       "slug": "renaissance",
-      "headline": "Renaissance",
+      "headline": "Act I: Renaissance",
       "byline": "Source: Wikipedia",
       "link": "https://en.wikipedia.org/wiki/Renaissance_(Beyonc%C3%A9_album)",
       "image": "2-renaissance.jpg",
@@ -19,7 +19,7 @@
     },
     {
       "slug": "cowboycarter",
-      "headline": "Cowboy Carter",
+      "headline": "Act II: Cowboy Carter",
       "byline": "Source: Wikipedia",
       "link": "https://en.wikipedia.org/wiki/Cowboy_Carter",
       "image": "1-cowboycarter.jpeg",

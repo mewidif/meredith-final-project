@@ -43,141 +43,264 @@
       "link": "https://en.wikipedia.org/wiki/Dangerously_in_Love"
     }
   ],
-  "cowboycarter": [
+  "beyonce": [
     {
+      "slug": "cowboycarter",
       "title": "AMERIICAN REQUIEM",
       "artists": "Beyoncé",
       "time": "5:25"
     },
     {
+      "slug": "cowboycarter",
       "title": "BLACKBIIRD",
       "artists": "Beyoncé, Tanner Adell, Brittney Spencer, Tiera Kennedy, Reyna Roberts",
       "time": "2:11"
     },
     {
+      "slug": "cowboycarter",
       "title": "16 CARRIAGES",
       "artists": "Beyoncé",
       "time": "3:47"
     },
     {
+      "slug": "cowboycarter",
       "title": "PROTECTOR",
       "artists": "Beyoncé, Rumi Carter",
       "time": "3:04"
     },
     {
+      "slug": "cowboycarter",
       "title": "MY ROSE",
       "artists": "Beyoncé",
       "time": "0:53"
     },
     {
+      "slug": "cowboycarter",
       "title": "SMOKE HOUR ★ WILLIE NELSON",
       "artists": "Beyoncé, Willie Nelson",
       "time": "0:50"
     },
     {
+      "slug": "cowboycarter",
       "title": "TEXAS HOLD 'EM",
       "artists": "Beyoncé",
       "time": "3:53"
     },
     {
+      "slug": "cowboycarter",
       "title": "BODYGUARD",
       "artists": "Beyoncé",
       "time": "4:00"
     },
     {
+      "slug": "cowboycarter",
       "title": "DOLLY P",
       "artists": "Beyoncé, Dolly Parton",
       "time": "0:22"
     },
     {
+      "slug": "cowboycarter",
       "title": "JOLENE",
       "artists": "Beyoncé",
       "time": "3:09"
     },
     {
+      "slug": "cowboycarter",
       "title": "DAUGHTER",
       "artists": "Beyoncé",
       "time": "3:23"
     },
     {
+      "slug": "cowboycarter",
       "title": "SPAGHETTII",
       "artists": "Beyoncé, Linda Martell, Shaboozey",
       "time": "2:38"
     },
     {
+      "slug": "cowboycarter",
       "title": "ALLIGATOR TEARS",
       "artists": "Beyoncé",
       "time": "2:59"
     },
     {
+      "slug": "cowboycarter",
       "title": "SMOKE HOUR II",
       "artists": "Beyoncé, Willie Nelson",
       "time": "0:29"
     },
     {
+      "slug": "cowboycarter",
       "title": "JUST FOR FUN",
       "artists": "Beyoncé, Willie Jones",
       "time": "3:24"
     },
     {
+      "slug": "cowboycarter",
       "title": "II MOST WANTED",
       "artists": "Beyoncé, Miley Cyrus",
       "time": "3:28"
     },
     {
+      "slug": "cowboycarter",
       "title": "LEVII'S JEANS",
       "artists": "Beyoncé, Post Malone",
       "time": "4:17"
     },
     {
+      "slug": "cowboycarter",
       "title": "FLAMENCO",
       "artists": "Beyoncé",
       "time": "1:40"
     },
     {
+      "slug": "cowboycarter",
       "title": "THE LINDA MARTELL SHOW",
       "artists": "Beyoncé, Linda Martell",
       "time": "0:28"
     },
     {
+      "slug": "cowboycarter",
       "title": "YA YA",
       "artists": "Beyoncé",
       "time": "4:34"
     },
     {
+      "slug": "cowboycarter",
       "title": "OH LOUSIANA",
       "artists": "Beyoncé",
       "time": "0:52"
     },
     {
+      "slug": "cowboycarter",
       "title": "DESERT EAGLE",
       "artists": "Beyoncé",
       "time": "1:12"
     },
     {
+      "slug": "cowboycarter",
       "title": "RIIVERDANCE",
       "artists": "Beyoncé",
       "time": "4:11"
     },
     {
+      "slug": "cowboycarter",
       "title": "II HANDS II HEAVEN",
       "artists": "Beyoncé",
       "time": "5:41"
     },
     {
+      "slug": "cowboycarter",
       "title": "TYRANT",
       "artists": "Beyoncé, Dolly Parton",
       "time": "4:10"
     },
     {
+      "slug": "cowboycarter",
       "title": "SWEET ★ HONEY ★ BUCKIIN'",
       "artists": "Beyoncé, Shaboozey",
       "time": "4:56"
     },
     {
+      "slug": "cowboycarter",
       "title": "AMEN",
       "artists": "Beyoncé",
       "time": "2:25"
+    },
+    {
+      "slug": "renaissance",
+      "title": "I'M THAT GIRL",
+      "artists": "Beyoncé",
+      "time": "3:28"
+    },
+    {
+      "slug": "renaissance",
+      "title": "COZY",
+      "artists": "Beyoncé",
+      "time": "3:30"
+    },
+    {
+      "slug": "renaissance",
+      "title": "ALIEN SUPERSTAR",
+      "artists": "Beyoncé",
+      "time": "3:35"
+    },
+    {
+      "slug": "renaissance",
+      "title": "CUFF IT",
+      "artists": "Beyoncé",
+      "time": "3:45"
+    },
+    {
+      "slug": "renaissance",
+      "title": "ENERGY (feat. Beam)",
+      "artists": "Beyoncé, BEAM",
+      "time": "1:56"
+    },
+    {
+      "slug": "renaissance",
+      "title": "BREAK MY SOUL",
+      "artists": "Beyoncé",
+      "time": "4:38"
+    },
+    {
+      "slug": "renaissance",
+      "title": "CHURCH GIRL",
+      "artists": "Beyoncé",
+      "time": "3:44"
+    },
+    {
+      "slug": "renaissance",
+      "title": "PLASTIC OFF THE SOFA",
+      "artists": "Beyoncé",
+      "time": "4:14"
+    },
+    {
+      "slug": "renaissance",
+      "title": "VIRGO'S GROOVE",
+      "artists": "Beyoncé",
+      "time": "6:08"
+    },
+    {
+      "slug": "renaissance",
+      "title": "MOVE (feat. Grace Jones & Tems)",
+      "artists": "Beyoncé, Grace Jones, Tems",
+      "time": "3:23"
+    },
+    {
+      "slug": "renaissance",
+      "title": "HEATED",
+      "artists": "Beyoncé",
+      "time": "4:20"
+    },
+    {
+      "slug": "renaissance",
+      "title": "THIQUE",
+      "artists": "Beyoncé",
+      "time": "4:04"
+    },
+    {
+      "slug": "renaissance",
+      "title": "ALL UP IN YOUR MIND",
+      "artists": "Beyoncé",
+      "time": "2:49"
+    },
+    {
+      "slug": "renaissance",
+      "title": "AMERICA HAS A PROBLEM",
+      "artists": "Beyoncé",
+      "time": "3:18"
+    },
+    {
+      "slug": "renaissance",
+      "title": "PURE/HONEY",
+      "artists": "Beyoncé",
+      "time": "4:48"
+    },
+    {
+      "slug": "renaissance",
+      "title": "SUMMER RENAISSANCE",
+      "artists": "Beyoncé",
+      "time": "4:33"
     }
   ],
   "renaissance": [
