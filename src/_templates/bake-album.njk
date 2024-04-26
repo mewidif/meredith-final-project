@@ -21,9 +21,18 @@
     <hr>
       {% for song in songs.beyonce %}
         {% if song.slug == slug %}
-          <h4>{{ song.title }}</h4>
-          <p>{{ song.artists }} ✪ {{ song.time }}</p>
-          <hr> <!-- @PROF MCDONALD: Is there a way to put a spreadsheet into a baked page? -->
+          <div class="row">
+            <div class="col-sm-1">
+              <a href="{{ song.link }}" target="_blank">
+                <img src="../img/{{ song.butt }}" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-sm-8">
+              <h4>{{ song.title }}</h4>
+              <p>{{ song.artists }} ✪ {{ song.time }}</p>
+            </div>
+          </div>
+        <hr>
         {% endif %}
       {% endfor %}
   </article>
