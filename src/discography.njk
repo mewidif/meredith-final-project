@@ -14,7 +14,7 @@
       {% for blog in blog.blogs %}
       <div class="col">
         <h6>
-          <a href="{{ relative_path }}blog/{{ blog.slug }}.html">{{ blog.headline }}</a>
+          <p><a href="{{ relative_path }}blog/{{ blog.slug }}.html">{{ blog.headline }}</a></p>
         </h6>
       </div>
       {% endfor %}
@@ -33,8 +33,8 @@
       </div>
       <div class="col-sm-8">
         <h3><a href="{{ album.link }}" target="_blank">{{ album.title }}</a></h3>
-        <p>{{ album.year }}</p>
-        {{ album.description }}
+        <h4>{{ album.year }}</h4>
+        <p>{{ album.description }}</p>
       </div>
     {% endfor %}
   </div>
